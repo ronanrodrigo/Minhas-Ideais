@@ -1,6 +1,6 @@
 //
 //  IdeaGatewayFake.swift
-//  Minhas Ideias
+//  MyIdeas
 //
 //  Created by Ronan Rodrigo Nunes on 06/12/15.
 //  Copyright © 2015 Ronan Rodrigo Nunes. All rights reserved.

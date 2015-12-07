@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3410CE2A1C139C3D00B7BCC1"
-               BuildableName = "Minhas Ideias.app"
-               BlueprintName = "Minhas Ideias"
-               ReferencedContainer = "container:Minhas Ideias.xcodeproj">
+               BuildableName = "MyIdeas.app"
+               BlueprintName = "MyIdeas"
+               ReferencedContainer = "container:MyIdeas.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3410CE3E1C139C3D00B7BCC1"
-               BuildableName = "Minhas IdeiasTests.xctest"
-               BlueprintName = "Minhas IdeiasTests"
-               ReferencedContainer = "container:Minhas Ideias.xcodeproj">
+               BuildableName = "MyIdeasTests.xctest"
+               BlueprintName = "MyIdeasTests"
+               ReferencedContainer = "container:MyIdeas.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "34D6B6FA1C14B15800827791"
                BuildableName = "CoreTests.xctest"
                BlueprintName = "CoreTests"
-               ReferencedContainer = "container:Minhas Ideias.xcodeproj">
+               ReferencedContainer = "container:MyIdeas.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3410CE2A1C139C3D00B7BCC1"
-            BuildableName = "Minhas Ideias.app"
-            BlueprintName = "Minhas Ideias"
-            ReferencedContainer = "container:Minhas Ideias.xcodeproj">
+            BuildableName = "MyIdeas.app"
+            BlueprintName = "MyIdeas"
+            ReferencedContainer = "container:MyIdeas.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3410CE2A1C139C3D00B7BCC1"
-            BuildableName = "Minhas Ideias.app"
-            BlueprintName = "Minhas Ideias"
-            ReferencedContainer = "container:Minhas Ideias.xcodeproj">
+            BuildableName = "MyIdeas.app"
+            BlueprintName = "MyIdeas"
+            ReferencedContainer = "container:MyIdeas.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3410CE2A1C139C3D00B7BCC1"
-            BuildableName = "Minhas Ideias.app"
-            BlueprintName = "Minhas Ideias"
-            ReferencedContainer = "container:Minhas Ideias.xcodeproj">
+            BuildableName = "MyIdeas.app"
+            BlueprintName = "MyIdeas"
+            ReferencedContainer = "container:MyIdeas.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

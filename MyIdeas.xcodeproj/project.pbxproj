@@ -40,16 +40,16 @@
 			containerPortal = 3410CE231C139C3D00B7BCC1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3410CE2A1C139C3D00B7BCC1;
-			remoteInfo = "Minhas Ideias";
+			remoteInfo = "MyIdeas";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3410CE2B1C139C3D00B7BCC1 /* Minhas Ideias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minhas Ideias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3410CE2E1C139C3D00B7BCC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Minhas Ideias/Application/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
-		3410CE351C139C3D00B7BCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Minhas Ideias/Application/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		3410CE2B1C139C3D00B7BCC1 /* MyIdeas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyIdeas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3410CE2E1C139C3D00B7BCC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "MyIdeas/Application/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		3410CE351C139C3D00B7BCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "MyIdeas/Application/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		3410CE381C139C3D00B7BCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3410CE3A1C139C3D00B7BCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Minhas Ideias/Application/Info.plist"; sourceTree = SOURCE_ROOT; };
+		3410CE3A1C139C3D00B7BCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "MyIdeas/Application/Info.plist"; sourceTree = SOURCE_ROOT; };
 		3410CE501C139D4A00B7BCC1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3410CE551C139D7F00B7BCC1 /* CategoriesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListTableViewController.swift; sourceTree = "<group>"; };
 		3410CE561C139D7F00B7BCC1 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 				3410CE5E1C139DFC00B7BCC1 /* Core */,
 				34D6B6FC1C14B15800827791 /* CoreTests */,
 				3498C6561C14EE9200299620 /* Shared */,
-				3410CE2D1C139C3D00B7BCC1 /* Minhas Ideias */,
+				3410CE2D1C139C3D00B7BCC1 /* MyIdeas */,
 				3410CE2C1C139C3D00B7BCC1 /* Products */,
 				6B02659F3D7741ED18646C82 /* Frameworks */,
 			);
@@ -95,20 +95,20 @@
 		3410CE2C1C139C3D00B7BCC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3410CE2B1C139C3D00B7BCC1 /* Minhas Ideias.app */,
+				3410CE2B1C139C3D00B7BCC1 /* MyIdeas.app */,
 				34D6B6FB1C14B15800827791 /* CoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3410CE2D1C139C3D00B7BCC1 /* Minhas Ideias */ = {
+		3410CE2D1C139C3D00B7BCC1 /* MyIdeas */ = {
 			isa = PBXGroup;
 			children = (
 				3410CE4E1C139C4800B7BCC1 /* Application */,
 				3410CE4F1C139C9000B7BCC1 /* Views */,
 				3410CE541C139D7F00B7BCC1 /* ViewsControllers */,
 			);
-			path = "Minhas Ideias";
+			path = "MyIdeas";
 			sourceTree = "<group>";
 		};
 		3410CE4E1C139C4800B7BCC1 /* Application */ = {
@@ -119,7 +119,7 @@
 				3410CE2E1C139C3D00B7BCC1 /* AppDelegate.swift */,
 			);
 			name = Application;
-			path = "Minhas Ideias/Application";
+			path = "MyIdeas/Application";
 			sourceTree = SOURCE_ROOT;
 		};
 		3410CE4F1C139C9000B7BCC1 /* Views */ = {
@@ -129,7 +129,7 @@
 				3410CE371C139C3D00B7BCC1 /* LaunchScreen.storyboard */,
 			);
 			name = Views;
-			path = "Minhas Ideias/Views";
+			path = "MyIdeas/Views";
 			sourceTree = SOURCE_ROOT;
 		};
 		3410CE541C139D7F00B7BCC1 /* ViewsControllers */ = {
@@ -141,7 +141,7 @@
 				3410CE581C139D7F00B7BCC1 /* IdeasListTableViewController.swift */,
 			);
 			name = ViewsControllers;
-			path = "Minhas Ideias/ViewsControllers";
+			path = "MyIdeas/ViewsControllers";
 			sourceTree = SOURCE_ROOT;
 		};
 		3410CE5E1C139DFC00B7BCC1 /* Core */ = {
@@ -247,9 +247,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3410CE2A1C139C3D00B7BCC1 /* Minhas Ideias */ = {
+		3410CE2A1C139C3D00B7BCC1 /* MyIdeas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3410CE481C139C3D00B7BCC1 /* Build configuration list for PBXNativeTarget "Minhas Ideias" */;
+			buildConfigurationList = 3410CE481C139C3D00B7BCC1 /* Build configuration list for PBXNativeTarget "MyIdeas" */;
 			buildPhases = (
 				3410CE271C139C3D00B7BCC1 /* Sources */,
 				3410CE281C139C3D00B7BCC1 /* Frameworks */,
@@ -259,9 +259,9 @@
 			);
 			dependencies = (
 			);
-			name = "Minhas Ideias";
-			productName = "Minhas Ideias";
-			productReference = 3410CE2B1C139C3D00B7BCC1 /* Minhas Ideias.app */;
+			name = "MyIdeas";
+			productName = "MyIdeas";
+			productReference = 3410CE2B1C139C3D00B7BCC1 /* MyIdeas.app */;
 			productType = "com.apple.product-type.application";
 		};
 		34D6B6FA1C14B15800827791 /* CoreTests */ = {
@@ -302,7 +302,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3410CE261C139C3D00B7BCC1 /* Build configuration list for PBXProject "Minhas Ideias" */;
+			buildConfigurationList = 3410CE261C139C3D00B7BCC1 /* Build configuration list for PBXProject "MyIdeas" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -315,7 +315,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3410CE2A1C139C3D00B7BCC1 /* Minhas Ideias */,
+				3410CE2A1C139C3D00B7BCC1 /* MyIdeas */,
 				34D6B6FA1C14B15800827791 /* CoreTests */,
 			);
 		};
@@ -383,7 +383,7 @@
 /* Begin PBXTargetDependency section */
 		34D6B7011C14B15800827791 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3410CE2A1C139C3D00B7BCC1 /* Minhas Ideias */;
+			target = 3410CE2A1C139C3D00B7BCC1 /* MyIdeas */;
 			targetProxy = 34D6B7001C14B15800827791 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,7 +395,7 @@
 				3410CE381C139C3D00B7BCC1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = "Minhas Ideias/Views";
+			path = "MyIdeas/Views";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
@@ -489,7 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/Minhas Ideias/Application/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MyIdeas/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ronanrodrigo.Minhas-Ideias";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,7 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/Minhas Ideias/Application/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MyIdeas/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ronanrodrigo.Minhas-Ideias";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,7 +516,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.ronanrodrigo.CoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minhas Ideias.app/Minhas Ideias";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyIdeas.app/MyIdeas";
 			};
 			name = Debug;
 		};
@@ -528,14 +528,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.ronanrodrigo.CoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minhas Ideias.app/Minhas Ideias";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyIdeas.app/MyIdeas";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3410CE261C139C3D00B7BCC1 /* Build configuration list for PBXProject "Minhas Ideias" */ = {
+		3410CE261C139C3D00B7BCC1 /* Build configuration list for PBXProject "MyIdeas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3410CE461C139C3D00B7BCC1 /* Debug */,
@@ -544,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3410CE481C139C3D00B7BCC1 /* Build configuration list for PBXNativeTarget "Minhas Ideias" */ = {
+		3410CE481C139C3D00B7BCC1 /* Build configuration list for PBXNativeTarget "MyIdeas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3410CE491C139C3D00B7BCC1 /* Debug */,

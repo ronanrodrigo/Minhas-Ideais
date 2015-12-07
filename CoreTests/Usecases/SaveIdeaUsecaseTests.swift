@@ -1,6 +1,6 @@
 //
 //  Minhas_IdeiasTests.swift
-//  Minhas IdeiasTests
+//  MyIdeasTests
 //
 //  Created by Ronan Rodrigo Nunes on 05/12/15.
 //  Copyright © 2015 Ronan Rodrigo Nunes. All rights reserved.

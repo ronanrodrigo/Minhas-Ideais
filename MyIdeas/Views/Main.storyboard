@@ -7,10 +7,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Minhas ideias-->
+        <!--My Ideas-->
         <scene sceneID="PSd-Ud-9RF">
             <objects>
-                <tableViewController id="oB4-e9-O3E" customClass="IdeasListTableViewController" customModule="Minhas_Ideias" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="oB4-e9-O3E" customClass="IdeasListTableViewController" customModule="MyIdeas" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="aBj-Dn-SCr">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,7 +33,7 @@
                             <outlet property="delegate" destination="oB4-e9-O3E" id="0zm-Qw-6jw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Minhas ideias" id="mBL-Ej-60x">
+                    <navigationItem key="navigationItem" title="My Ideas" id="mBL-Ej-60x">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="gpt-Op-jT2">
                             <connections>
                                 <segue destination="akl-YV-bjI" kind="show" identifier="newIdea" id="iKb-tO-uGW"/>
@@ -45,10 +45,10 @@
             </objects>
             <point key="canvasLocation" x="1373" y="816"/>
         </scene>
-        <!--Nova ideia-->
+        <!--New idea-->
         <scene sceneID="Fca-Jr-pD6">
             <objects>
-                <tableViewController id="akl-YV-bjI" customClass="IdeaFormTableViewController" customModule="Minhas_Ideias" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="akl-YV-bjI" customClass="IdeaFormTableViewController" customModule="MyIdeas" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="oEI-DE-EtO">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +64,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Título" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UuM-rr-86v">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UuM-rr-86v">
                                                     <rect key="frame" x="15" y="0.0" width="577" height="43"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -88,7 +88,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Descrição" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="we7-em-vpy">
+                                                <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="we7-em-vpy">
                                                     <rect key="frame" x="15" y="0.0" width="577" height="43"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -119,16 +119,16 @@
                                             <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Categoria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mw2-O5-X88">
-                                                    <rect key="frame" x="15" y="12" width="71" height="20"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mw2-O5-X88">
+                                                    <rect key="frame" x="15" y="12" width="67" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Escolha uma categoria" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CVF-SF-JUP">
-                                                    <rect key="frame" x="400" y="12" width="165" height="20"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Choose a category" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CVF-SF-JUP">
+                                                    <rect key="frame" x="428" y="12" width="137" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -151,7 +151,7 @@
                             <outlet property="delegate" destination="akl-YV-bjI" id="e7F-Z6-ut8"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Nova ideia" id="Nf0-mf-R0X">
+                    <navigationItem key="navigationItem" title="New idea" id="Nf0-mf-R0X">
                         <barButtonItem key="backBarButtonItem" title=" " id="z5t-g9-xIH"/>
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="NSC-DE-6vQ">
                             <connections>
@@ -168,10 +168,10 @@
             </objects>
             <point key="canvasLocation" x="2101" y="816"/>
         </scene>
-        <!--Conte mais-->
+        <!--Description-->
         <scene sceneID="uuH-ZW-hlU">
             <objects>
-                <viewController id="WTu-MI-LMS" customClass="DescriptionViewController" customModule="Minhas_Ideias" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="WTu-MI-LMS" customClass="DescriptionViewController" customModule="MyIdeas" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="12Z-30-HKL"/>
                         <viewControllerLayoutGuide type="bottom" id="ZHW-RA-nmj"/>
@@ -206,7 +206,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="QP7-L8-ZJy" secondAttribute="trailing" id="cjD-ds-67d"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Conte mais" id="0fa-Qv-jx1"/>
+                    <navigationItem key="navigationItem" title="Description" id="0fa-Qv-jx1"/>
                     <connections>
                         <outlet property="descriptionTextView" destination="QP7-L8-ZJy" id="pO7-ry-DoX"/>
                     </connections>
@@ -215,10 +215,10 @@
             </objects>
             <point key="canvasLocation" x="2817" y="492"/>
         </scene>
-        <!--Escolha uma categoria-->
+        <!--Choose a category-->
         <scene sceneID="pBS-5S-hfo">
             <objects>
-                <tableViewController id="PtO-hm-Vb5" customClass="CategoriesListTableViewController" customModule="Minhas_Ideias" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="PtO-hm-Vb5" customClass="CategoriesListTableViewController" customModule="MyIdeas" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Vdu-81-lXz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -241,7 +241,7 @@
                             <outlet property="delegate" destination="PtO-hm-Vb5" id="oOS-6I-Hga"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Escolha uma categoria" id="A6E-DZ-d96"/>
+                    <navigationItem key="navigationItem" title="Choose a category" id="A6E-DZ-d96"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KRG-BH-8RI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
