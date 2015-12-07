@@ -32,7 +32,6 @@
 		34D6B7091C14B67F00827791 /* IdeaGatewayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE621C139DFC00B7BCC1 /* IdeaGatewayProtocol.swift */; };
 		34D6B70A1C14B67F00827791 /* IdeaStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE641C139DFC00B7BCC1 /* IdeaStruct.swift */; };
 		34D6B70B1C14B67F00827791 /* SaveIdeaUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE661C139DFC00B7BCC1 /* SaveIdeaUsecase.swift */; };
-		D07688631528CC66F6165D94 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1C6D62EB26ADE64295654E /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,18 +67,9 @@
 		34D6B6FD1C14B15800827791 /* SaveIdeaUsecaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveIdeaUsecaseTests.swift; sourceTree = "<group>"; };
 		34D6B6FF1C14B15800827791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34D6B7061C14B48800827791 /* IdeaGatewayFake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaGatewayFake.swift; sourceTree = "<group>"; };
-		6A1C6D62EB26ADE64295654E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3410CE281C139C3D00B7BCC1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D07688631528CC66F6165D94 /* Pods.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		34D6B6F81C14B15800827791 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,14 +243,6 @@
 			name = Gateways;
 			path = CoreTests/Doubles/Gateways;
 			sourceTree = SOURCE_ROOT;
-		};
-		6B02659F3D7741ED18646C82 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6A1C6D62EB26ADE64295654E /* Pods.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
