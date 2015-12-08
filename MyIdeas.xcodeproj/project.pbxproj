@@ -26,6 +26,11 @@
 		3498C6591C14EEE900299620 /* ListIdeasUsecaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C6581C14EEE900299620 /* ListIdeasUsecaseFactory.swift */; };
 		3498C65A1C14EFA200299620 /* ListIdeasUsecaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C6581C14EEE900299620 /* ListIdeasUsecaseFactory.swift */; };
 		3498C65B1C14EFF200299620 /* IdeaGatewayFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D6B7061C14B48800827791 /* IdeaGatewayFake.swift */; };
+		34BA15671C16641100A6A257 /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA15661C16641100A6A257 /* Idea.swift */; };
+		34CA1FEC1C1660EE00F5D724 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE31C16609D00F5D724 /* Realm.framework */; };
+		34CA1FED1C1660EE00F5D724 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE31C16609D00F5D724 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34CA1FEE1C1660EE00F5D724 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE41C16609D00F5D724 /* RealmSwift.framework */; };
+		34CA1FEF1C1660EE00F5D724 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE41C16609D00F5D724 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		34D6B6FE1C14B15800827791 /* SaveIdeaUsecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D6B6FD1C14B15800827791 /* SaveIdeaUsecaseTests.swift */; };
 		34D6B7071C14B48800827791 /* IdeaGatewayFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D6B7061C14B48800827791 /* IdeaGatewayFake.swift */; };
 		34D6B7081C14B67F00827791 /* CategoriesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE601C139DFC00B7BCC1 /* CategoriesEnum.swift */; };
@@ -40,16 +45,31 @@
 			containerPortal = 3410CE231C139C3D00B7BCC1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3410CE2A1C139C3D00B7BCC1;
-			remoteInfo = "MyIdeas";
+			remoteInfo = MyIdeas;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		34CA1FF01C1660EE00F5D724 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				34CA1FEF1C1660EE00F5D724 /* RealmSwift.framework in Embed Frameworks */,
+				34CA1FED1C1660EE00F5D724 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		3410CE2B1C139C3D00B7BCC1 /* MyIdeas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyIdeas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3410CE2E1C139C3D00B7BCC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "MyIdeas/Application/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
-		3410CE351C139C3D00B7BCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "MyIdeas/Application/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		3410CE2B1C139C3D00B7BCC1 /* MyIdeas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyIdeas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3410CE2E1C139C3D00B7BCC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MyIdeas/Application/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		3410CE351C139C3D00B7BCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MyIdeas/Application/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		3410CE381C139C3D00B7BCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3410CE3A1C139C3D00B7BCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "MyIdeas/Application/Info.plist"; sourceTree = SOURCE_ROOT; };
+		3410CE3A1C139C3D00B7BCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyIdeas/Application/Info.plist; sourceTree = SOURCE_ROOT; };
 		3410CE501C139D4A00B7BCC1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3410CE551C139D7F00B7BCC1 /* CategoriesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListTableViewController.swift; sourceTree = "<group>"; };
 		3410CE561C139D7F00B7BCC1 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +83,9 @@
 		3498C64F1C14E59600299620 /* ListIdeasUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasUsecase.swift; sourceTree = "<group>"; };
 		3498C6511C14E60900299620 /* ListIdeasUsecaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasUsecaseTests.swift; sourceTree = "<group>"; };
 		3498C6581C14EEE900299620 /* ListIdeasUsecaseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasUsecaseFactory.swift; sourceTree = "<group>"; };
+		34BA15661C16641100A6A257 /* Idea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
+		34CA1FE31C16609D00F5D724 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		34CA1FE41C16609D00F5D724 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		34D6B6FB1C14B15800827791 /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D6B6FD1C14B15800827791 /* SaveIdeaUsecaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveIdeaUsecaseTests.swift; sourceTree = "<group>"; };
 		34D6B6FF1C14B15800827791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +93,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		34CA1FE91C16609D00F5D724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CA1FEE1C1660EE00F5D724 /* RealmSwift.framework in Frameworks */,
+				34CA1FEC1C1660EE00F5D724 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		34D6B6F81C14B15800827791 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,12 +115,12 @@
 		3410CE221C139C3D00B7BCC1 = {
 			isa = PBXGroup;
 			children = (
+				34CA1FEB1C1660CF00F5D724 /* Vendor */,
 				3410CE5E1C139DFC00B7BCC1 /* Core */,
 				34D6B6FC1C14B15800827791 /* CoreTests */,
 				3498C6561C14EE9200299620 /* Shared */,
 				3410CE2D1C139C3D00B7BCC1 /* MyIdeas */,
 				3410CE2C1C139C3D00B7BCC1 /* Products */,
-				6B02659F3D7741ED18646C82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +140,7 @@
 				3410CE4F1C139C9000B7BCC1 /* Views */,
 				3410CE541C139D7F00B7BCC1 /* ViewsControllers */,
 			);
-			path = "MyIdeas";
+			path = MyIdeas;
 			sourceTree = "<group>";
 		};
 		3410CE4E1C139C4800B7BCC1 /* Application */ = {
@@ -119,7 +151,7 @@
 				3410CE2E1C139C3D00B7BCC1 /* AppDelegate.swift */,
 			);
 			name = Application;
-			path = "MyIdeas/Application";
+			path = MyIdeas/Application;
 			sourceTree = SOURCE_ROOT;
 		};
 		3410CE4F1C139C9000B7BCC1 /* Views */ = {
@@ -129,7 +161,7 @@
 				3410CE371C139C3D00B7BCC1 /* LaunchScreen.storyboard */,
 			);
 			name = Views;
-			path = "MyIdeas/Views";
+			path = MyIdeas/Views;
 			sourceTree = SOURCE_ROOT;
 		};
 		3410CE541C139D7F00B7BCC1 /* ViewsControllers */ = {
@@ -141,7 +173,7 @@
 				3410CE581C139D7F00B7BCC1 /* IdeasListTableViewController.swift */,
 			);
 			name = ViewsControllers;
-			path = "MyIdeas/ViewsControllers";
+			path = MyIdeas/ViewsControllers;
 			sourceTree = SOURCE_ROOT;
 		};
 		3410CE5E1C139DFC00B7BCC1 /* Core */ = {
@@ -210,6 +242,7 @@
 		3498C6561C14EE9200299620 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				34BA15651C16637000A6A257 /* Models */,
 				3498C6571C14EEBE00299620 /* Factories */,
 			);
 			path = Shared;
@@ -224,6 +257,24 @@
 			name = Factories;
 			path = Shared/Factories;
 			sourceTree = SOURCE_ROOT;
+		};
+		34BA15651C16637000A6A257 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				34BA15661C16641100A6A257 /* Idea.swift */,
+			);
+			name = Models;
+			path = Shared/Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		34CA1FEB1C1660CF00F5D724 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				34CA1FE31C16609D00F5D724 /* Realm.framework */,
+				34CA1FE41C16609D00F5D724 /* RealmSwift.framework */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
 		};
 		34D6B6FC1C14B15800827791 /* CoreTests */ = {
 			isa = PBXGroup;
@@ -252,15 +303,17 @@
 			buildConfigurationList = 3410CE481C139C3D00B7BCC1 /* Build configuration list for PBXNativeTarget "MyIdeas" */;
 			buildPhases = (
 				3410CE271C139C3D00B7BCC1 /* Sources */,
-				3410CE281C139C3D00B7BCC1 /* Frameworks */,
 				3410CE291C139C3D00B7BCC1 /* Resources */,
+				34CA1FE91C16609D00F5D724 /* Frameworks */,
+				34CA1FF01C1660EE00F5D724 /* Embed Frameworks */,
+				34CA1FF11C16620A00F5D724 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "MyIdeas";
-			productName = "MyIdeas";
+			name = MyIdeas;
+			productName = MyIdeas;
 			productReference = 3410CE2B1C139C3D00B7BCC1 /* MyIdeas.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -341,11 +394,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34CA1FF11C16620A00F5D724 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3410CE271C139C3D00B7BCC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34BA15671C16641100A6A257 /* Idea.swift in Sources */,
 				341378FB1C14F1410043C818 /* SaveIdeaUsecaseFactory.swift in Sources */,
 				3498C65B1C14EFF200299620 /* IdeaGatewayFake.swift in Sources */,
 				3498C65A1C14EFA200299620 /* ListIdeasUsecaseFactory.swift in Sources */,
@@ -395,7 +465,7 @@
 				3410CE381C139C3D00B7BCC1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = "MyIdeas/Views";
+			path = MyIdeas/Views;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
@@ -489,6 +559,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Vendor",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/MyIdeas/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ronanrodrigo.Minhas-Ideias";
@@ -501,6 +576,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Vendor",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/MyIdeas/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ronanrodrigo.Minhas-Ideias";
