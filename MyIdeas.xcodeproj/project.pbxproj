@@ -267,8 +267,8 @@
 				34AF64CF1C16F1ED00C3D457 /* IdeaGatewayRealm.swift */,
 			);
 			name = Gateways;
-			path = ..;
-			sourceTree = "<group>";
+			path = Shared/Gateways;
+			sourceTree = SOURCE_ROOT;
 		};
 		34BA15651C16637000A6A257 /* Models */ = {
 			isa = PBXGroup;
