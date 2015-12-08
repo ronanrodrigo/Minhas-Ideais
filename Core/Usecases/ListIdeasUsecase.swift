@@ -10,12 +10,13 @@ import Foundation
 
 class ListIdeasUsecase {
     var gateway: IdeaGatewayProtocol
+    var presenter: ListIdeasPresenterProtocol
     
-    init(gateway: IdeaGatewayProtocol) {
+    init(gateway: IdeaGatewayProtocol, presenter: ListIdeasPresenterProtocol) {
         self.gateway = gateway
+        self.presenter = presenter
     }
     
-    func run() -> [IdeaStruct] {
-        return self.gateway.listIdeas()
+    func run() {
     }
 }

@@ -7,15 +7,18 @@
 //
 
 import Foundation
+import UIKit
 
 class ListIdeasUsecaseFactory {
-    var gateway: IdeaGatewayProtocol!
+    var gateway: IdeaGatewayProtocol
+    var presenter: ListIdeasPresenterProtocol
     
     init() {
         self.gateway = IdeaGatewayRealm()
+        self.presenter = ListIdeasPresenter()
     }
     
     func make() -> ListIdeasUsecase {
-        return ListIdeasUsecase(gateway: self.gateway)
+        return ListIdeasUsecase(gateway: self.gateway, presenter: self.presenter)
     }
 }
