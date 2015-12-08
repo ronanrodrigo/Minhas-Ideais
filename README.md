@@ -21,6 +21,8 @@ A sample iOS app built using the Clean Swift architecture.
 │   └── Usecases
 │       ├── ListIdeasUsecaseTests.swift
 │       └── SaveIdeaUsecaseTests.swift
+├── Frameworks
+├── IdeaGatewayRealm.swift
 ├── MyIdeas
 │   ├── Application
 │   │   ├── AppDelegate.swift
@@ -37,8 +39,13 @@ A sample iOS app built using the Clean Swift architecture.
 │       ├── DescriptionViewController.swift
 │       ├── IdeaFormTableViewController.swift
 │       └── IdeasListTableViewController.swift
+├── MyIdeas.xcodeproj
+├── MyIdeas.xcworkspace
+├── README.md
 └── Shared
-    └── Factories
-        ├── ListIdeasUsecaseFactory.swift
-        └── SaveIdeaUsecaseFactory.swift
+    ├── Factories
+    │   ├── ListIdeasUsecaseFactory.swift
+    │   └── SaveIdeaUsecaseFactory.swift
+    └── Models
+        └── Idea.swift
 ```
