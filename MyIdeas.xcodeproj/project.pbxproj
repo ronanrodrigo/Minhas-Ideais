@@ -109,7 +109,6 @@
 				3410CE2D1C139C3D00B7BCC1 /* MyIdeas */,
 				3410CE2C1C139C3D00B7BCC1 /* Products */,
 				3498C6561C14EE9200299620 /* Shared */,
-				34CA1FEB1C1660CF00F5D724 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,13 +263,6 @@
 			name = Models;
 			path = Shared/Models;
 			sourceTree = SOURCE_ROOT;
-		};
-		34CA1FEB1C1660CF00F5D724 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Frameworks;
-			sourceTree = "<group>";
 		};
 		34D6B6FC1C14B15800827791 /* CoreTests */ = {
 			isa = PBXGroup;
