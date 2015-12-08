@@ -17,7 +17,11 @@ class IdeasListTableViewController: UITableViewController {
         super.viewDidLoad()
         
         self.listIdeasUsecase = ListIdeasUsecaseFactory().make()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
         self.ideas = self.listIdeasUsecase.run()
+        self.tableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
