@@ -27,11 +27,11 @@
 		3498C65A1C14EFA200299620 /* ListIdeasUsecaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C6581C14EEE900299620 /* ListIdeasUsecaseFactory.swift */; };
 		3498C65B1C14EFF200299620 /* IdeaGatewayFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D6B7061C14B48800827791 /* IdeaGatewayFake.swift */; };
 		34AF64D01C16F1ED00C3D457 /* IdeaGatewayRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF64CF1C16F1ED00C3D457 /* IdeaGatewayRealm.swift */; };
+		34AF64D31C16FA7900C3D457 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE31C16609D00F5D724 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34AF64D41C16FA7900C3D457 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE41C16609D00F5D724 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		34BA15671C16641100A6A257 /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA15661C16641100A6A257 /* Idea.swift */; };
 		34CA1FEC1C1660EE00F5D724 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE31C16609D00F5D724 /* Realm.framework */; };
-		34CA1FED1C1660EE00F5D724 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE31C16609D00F5D724 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		34CA1FEE1C1660EE00F5D724 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE41C16609D00F5D724 /* RealmSwift.framework */; };
-		34CA1FEF1C1660EE00F5D724 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE41C16609D00F5D724 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		34D6B6FE1C14B15800827791 /* SaveIdeaUsecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D6B6FD1C14B15800827791 /* SaveIdeaUsecaseTests.swift */; };
 		34D6B7071C14B48800827791 /* IdeaGatewayFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D6B7061C14B48800827791 /* IdeaGatewayFake.swift */; };
 		34D6B7081C14B67F00827791 /* CategoriesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE601C139DFC00B7BCC1 /* CategoriesEnum.swift */; };
@@ -57,8 +57,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				34CA1FEF1C1660EE00F5D724 /* RealmSwift.framework in Embed Frameworks */,
-				34CA1FED1C1660EE00F5D724 /* Realm.framework in Embed Frameworks */,
+				34AF64D31C16FA7900C3D457 /* Realm.framework in Embed Frameworks */,
+				34AF64D41C16FA7900C3D457 /* RealmSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,12 +117,12 @@
 		3410CE221C139C3D00B7BCC1 = {
 			isa = PBXGroup;
 			children = (
-				34CA1FEB1C1660CF00F5D724 /* Vendor */,
 				3410CE5E1C139DFC00B7BCC1 /* Core */,
 				34D6B6FC1C14B15800827791 /* CoreTests */,
 				3498C6561C14EE9200299620 /* Shared */,
 				3410CE2D1C139C3D00B7BCC1 /* MyIdeas */,
 				3410CE2C1C139C3D00B7BCC1 /* Products */,
+				34CA1FEB1C1660CF00F5D724 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,13 +279,13 @@
 			path = Shared/Models;
 			sourceTree = SOURCE_ROOT;
 		};
-		34CA1FEB1C1660CF00F5D724 /* Vendor */ = {
+		34CA1FEB1C1660CF00F5D724 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				34CA1FE31C16609D00F5D724 /* Realm.framework */,
 				34CA1FE41C16609D00F5D724 /* RealmSwift.framework */,
 			);
-			path = Vendor;
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		34D6B6FC1C14B15800827791 /* CoreTests */ = {
