@@ -119,9 +119,9 @@
 			children = (
 				3410CE5E1C139DFC00B7BCC1 /* Core */,
 				34D6B6FC1C14B15800827791 /* CoreTests */,
-				3498C6561C14EE9200299620 /* Shared */,
 				3410CE2D1C139C3D00B7BCC1 /* MyIdeas */,
 				3410CE2C1C139C3D00B7BCC1 /* Products */,
+				3498C6561C14EE9200299620 /* Shared */,
 				34CA1FEB1C1660CF00F5D724 /* Frameworks */,
 			);
 			sourceTree = "<group>";
