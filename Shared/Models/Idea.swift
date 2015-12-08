@@ -11,5 +11,5 @@ import RealmSwift
 
 class Idea: Object {
     dynamic var title = ""
-    dynamic var briefing = ""
+    dynamic var explanation = ""
 }

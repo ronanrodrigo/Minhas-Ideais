@@ -11,7 +11,7 @@ import UIKit
 class IdeaFormTableViewController: UITableViewController {
     
     @IBOutlet weak var ideaTitle: UITextField!
-    @IBOutlet weak var ideaDescription: UITextField!
+    @IBOutlet weak var ideaExplanation: UITextField!
     
     var idea: IdeaStruct!
     var saveIdeaUsecase: SaveIdeaUsecase!
@@ -48,7 +48,7 @@ class IdeaFormTableViewController: UITableViewController {
 
     @IBAction func doneTapped(sender: AnyObject) {
         idea.title = self.ideaTitle.text
-        idea.description = self.ideaDescription.text
+        idea.explanation = self.ideaExplanation.text
         
         self.saveIdeaUsecase.run(idea)
         

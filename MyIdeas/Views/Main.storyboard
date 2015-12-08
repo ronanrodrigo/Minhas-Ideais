@@ -160,7 +160,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="ideaDescription" destination="we7-em-vpy" id="AFP-fL-ZUn"/>
+                        <outlet property="ideaExplanation" destination="we7-em-vpy" id="Wfc-YT-fgC"/>
                         <outlet property="ideaTitle" destination="UuM-rr-86v" id="488-zp-vdJ"/>
                     </connections>
                 </tableViewController>

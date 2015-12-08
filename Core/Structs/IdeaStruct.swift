@@ -22,21 +22,21 @@ enum IdeaStructValidationError : ErrorType {
 struct IdeaStruct {
     var id: Int?
     var title: String?
-    var briefing: String?
+    var explanation: String?
     var category: CategoriesEnum?
     
     init() { }
     
-    init(title: String, briefing: String, category: CategoriesEnum) {
+    init(title: String, explanation: String, category: CategoriesEnum) {
         self.title = title
-        self.briefing = briefing
+        self.explanation = explanation
         self.category = category
     }
     
-    init(id: Int?, title: String?, briefing: String?, category: CategoriesEnum?) {
+    init(id: Int?, title: String?, explanation: String?, category: CategoriesEnum?) {
         self.id = id
         self.title = title
-        self.briefing = briefing
+        self.explanation = explanation
         self.category = category
     }
     
