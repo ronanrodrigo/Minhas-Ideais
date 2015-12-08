@@ -12,7 +12,7 @@ class ListIdeasUsecaseFactory {
     var gateway: IdeaGatewayProtocol!
     
     init() {
-        self.gateway = IdeaGatewayFake()
+        self.gateway = IdeaGatewayRealm()
     }
     
     func make() -> ListIdeasUsecase {

@@ -12,7 +12,7 @@ class SaveIdeaUsecaseFactory {
     var gateway: IdeaGatewayProtocol!
     
     init() {
-        self.gateway = IdeaGatewayFake()
+        self.gateway = IdeaGatewayRealm()
     }
     
     func make() -> SaveIdeaUsecase {

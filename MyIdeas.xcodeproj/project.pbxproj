@@ -26,6 +26,7 @@
 		3498C6591C14EEE900299620 /* ListIdeasUsecaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C6581C14EEE900299620 /* ListIdeasUsecaseFactory.swift */; };
 		3498C65A1C14EFA200299620 /* ListIdeasUsecaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C6581C14EEE900299620 /* ListIdeasUsecaseFactory.swift */; };
 		3498C65B1C14EFF200299620 /* IdeaGatewayFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D6B7061C14B48800827791 /* IdeaGatewayFake.swift */; };
+		34AF64D01C16F1ED00C3D457 /* IdeaGatewayRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF64CF1C16F1ED00C3D457 /* IdeaGatewayRealm.swift */; };
 		34BA15671C16641100A6A257 /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA15661C16641100A6A257 /* Idea.swift */; };
 		34CA1FEC1C1660EE00F5D724 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE31C16609D00F5D724 /* Realm.framework */; };
 		34CA1FED1C1660EE00F5D724 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE31C16609D00F5D724 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -83,6 +84,7 @@
 		3498C64F1C14E59600299620 /* ListIdeasUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasUsecase.swift; sourceTree = "<group>"; };
 		3498C6511C14E60900299620 /* ListIdeasUsecaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasUsecaseTests.swift; sourceTree = "<group>"; };
 		3498C6581C14EEE900299620 /* ListIdeasUsecaseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasUsecaseFactory.swift; sourceTree = "<group>"; };
+		34AF64CF1C16F1ED00C3D457 /* IdeaGatewayRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaGatewayRealm.swift; sourceTree = "<group>"; };
 		34BA15661C16641100A6A257 /* Idea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
 		34CA1FE31C16609D00F5D724 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		34CA1FE41C16609D00F5D724 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 		3498C6561C14EE9200299620 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				34AF64CE1C16F1C200C3D457 /* Gateways */,
 				34BA15651C16637000A6A257 /* Models */,
 				3498C6571C14EEBE00299620 /* Factories */,
 			);
@@ -257,6 +260,15 @@
 			name = Factories;
 			path = Shared/Factories;
 			sourceTree = SOURCE_ROOT;
+		};
+		34AF64CE1C16F1C200C3D457 /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				34AF64CF1C16F1ED00C3D457 /* IdeaGatewayRealm.swift */,
+			);
+			name = Gateways;
+			path = ..;
+			sourceTree = "<group>";
 		};
 		34BA15651C16637000A6A257 /* Models */ = {
 			isa = PBXGroup;
@@ -420,6 +432,7 @@
 				3498C65B1C14EFF200299620 /* IdeaGatewayFake.swift in Sources */,
 				3498C65A1C14EFA200299620 /* ListIdeasUsecaseFactory.swift in Sources */,
 				3498C6501C14E59600299620 /* ListIdeasUsecase.swift in Sources */,
+				34AF64D01C16F1ED00C3D457 /* IdeaGatewayRealm.swift in Sources */,
 				3410CE6A1C139DFC00B7BCC1 /* SaveIdeaUsecase.swift in Sources */,
 				3410CE5A1C139D7F00B7BCC1 /* DescriptionViewController.swift in Sources */,
 				3410CE5C1C139D7F00B7BCC1 /* IdeasListTableViewController.swift in Sources */,
