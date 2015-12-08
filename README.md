@@ -17,18 +17,14 @@ A sample iOS app built using the Clean Swift architecture.
 │   ├── Doubles
 │   │   └── Gateways
 │   │       └── IdeaGatewayFake.swift
-│   ├── Info.plist
 │   └── Usecases
 │       ├── ListIdeasUsecaseTests.swift
 │       └── SaveIdeaUsecaseTests.swift
 ├── Frameworks
-├── IdeaGatewayRealm.swift
 ├── MyIdeas
 │   ├── Application
 │   │   ├── AppDelegate.swift
 │   │   ├── Assets.xcassets
-│   │   │   └── AppIcon.appiconset
-│   │   │       └── Contents.json
 │   │   └── Info.plist
 │   ├── Views
 │   │   ├── Base.lproj
@@ -46,6 +42,8 @@ A sample iOS app built using the Clean Swift architecture.
     ├── Factories
     │   ├── ListIdeasUsecaseFactory.swift
     │   └── SaveIdeaUsecaseFactory.swift
+    ├── Gateways
+    │   └── IdeaGatewayRealm.swift
     └── Models
         └── Idea.swift
 ```
