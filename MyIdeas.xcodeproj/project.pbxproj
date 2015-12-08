@@ -23,15 +23,9 @@
 		3498C6501C14E59600299620 /* ListIdeasUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C64F1C14E59600299620 /* ListIdeasUsecase.swift */; };
 		3498C6521C14E60900299620 /* ListIdeasUsecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C6511C14E60900299620 /* ListIdeasUsecaseTests.swift */; };
 		3498C6551C14E75600299620 /* ListIdeasUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C64F1C14E59600299620 /* ListIdeasUsecase.swift */; };
-		3498C6591C14EEE900299620 /* ListIdeasUsecaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C6581C14EEE900299620 /* ListIdeasUsecaseFactory.swift */; };
 		3498C65A1C14EFA200299620 /* ListIdeasUsecaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C6581C14EEE900299620 /* ListIdeasUsecaseFactory.swift */; };
 		3498C65B1C14EFF200299620 /* IdeaGatewayFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D6B7061C14B48800827791 /* IdeaGatewayFake.swift */; };
 		34AF64D01C16F1ED00C3D457 /* IdeaGatewayRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF64CF1C16F1ED00C3D457 /* IdeaGatewayRealm.swift */; };
-		34AF64D31C16FA7900C3D457 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE31C16609D00F5D724 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		34AF64D41C16FA7900C3D457 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE41C16609D00F5D724 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		34BA15671C16641100A6A257 /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA15661C16641100A6A257 /* Idea.swift */; };
-		34CA1FEC1C1660EE00F5D724 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE31C16609D00F5D724 /* Realm.framework */; };
-		34CA1FEE1C1660EE00F5D724 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CA1FE41C16609D00F5D724 /* RealmSwift.framework */; };
 		34D6B6FE1C14B15800827791 /* SaveIdeaUsecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D6B6FD1C14B15800827791 /* SaveIdeaUsecaseTests.swift */; };
 		34D6B7071C14B48800827791 /* IdeaGatewayFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D6B7061C14B48800827791 /* IdeaGatewayFake.swift */; };
 		34D6B7081C14B67F00827791 /* CategoriesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE601C139DFC00B7BCC1 /* CategoriesEnum.swift */; };
@@ -57,8 +51,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				34AF64D31C16FA7900C3D457 /* Realm.framework in Embed Frameworks */,
-				34AF64D41C16FA7900C3D457 /* RealmSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,9 +77,6 @@
 		3498C6511C14E60900299620 /* ListIdeasUsecaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasUsecaseTests.swift; sourceTree = "<group>"; };
 		3498C6581C14EEE900299620 /* ListIdeasUsecaseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasUsecaseFactory.swift; sourceTree = "<group>"; };
 		34AF64CF1C16F1ED00C3D457 /* IdeaGatewayRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaGatewayRealm.swift; sourceTree = "<group>"; };
-		34BA15661C16641100A6A257 /* Idea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
-		34CA1FE31C16609D00F5D724 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
-		34CA1FE41C16609D00F5D724 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		34D6B6FB1C14B15800827791 /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D6B6FD1C14B15800827791 /* SaveIdeaUsecaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveIdeaUsecaseTests.swift; sourceTree = "<group>"; };
 		34D6B6FF1C14B15800827791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,8 +88,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34CA1FEE1C1660EE00F5D724 /* RealmSwift.framework in Frameworks */,
-				34CA1FEC1C1660EE00F5D724 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +260,6 @@
 		34BA15651C16637000A6A257 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				34BA15661C16641100A6A257 /* Idea.swift */,
 			);
 			name = Models;
 			path = Shared/Models;
@@ -282,8 +268,6 @@
 		34CA1FEB1C1660CF00F5D724 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				34CA1FE31C16609D00F5D724 /* Realm.framework */,
-				34CA1FE41C16609D00F5D724 /* RealmSwift.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -318,7 +302,6 @@
 				3410CE291C139C3D00B7BCC1 /* Resources */,
 				34CA1FE91C16609D00F5D724 /* Frameworks */,
 				34CA1FF01C1660EE00F5D724 /* Embed Frameworks */,
-				34CA1FF11C16620A00F5D724 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -406,28 +389,11 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		34CA1FF11C16620A00F5D724 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		3410CE271C139C3D00B7BCC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34BA15671C16641100A6A257 /* Idea.swift in Sources */,
 				341378FB1C14F1410043C818 /* SaveIdeaUsecaseFactory.swift in Sources */,
 				3498C65B1C14EFF200299620 /* IdeaGatewayFake.swift in Sources */,
 				3498C65A1C14EFA200299620 /* ListIdeasUsecaseFactory.swift in Sources */,
@@ -450,7 +416,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3498C6551C14E75600299620 /* ListIdeasUsecase.swift in Sources */,
-				3498C6591C14EEE900299620 /* ListIdeasUsecaseFactory.swift in Sources */,
 				34D6B7081C14B67F00827791 /* CategoriesEnum.swift in Sources */,
 				34D6B7091C14B67F00827791 /* IdeaGatewayProtocol.swift in Sources */,
 				3498C6521C14E60900299620 /* ListIdeasUsecaseTests.swift in Sources */,

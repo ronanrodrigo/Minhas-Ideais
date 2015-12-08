@@ -8,7 +8,7 @@
 
 import XCTest
 
-@testable import Minhas_Ideias
+@testable import MyIdeas
 
 class SaveIdeaUsecaseTests: XCTestCase {
     
@@ -23,7 +23,7 @@ class SaveIdeaUsecaseTests: XCTestCase {
     }
     
     func testShouldCreateAnIdea() {
-        let idea: IdeaStruct = IdeaStruct(title: "Title", description: "Description", category: .Health)
+        let idea: IdeaStruct = IdeaStruct(title: "Title", explanation: "Description", category: .Health)
         
         self.usecase.run(idea)
         
@@ -31,7 +31,7 @@ class SaveIdeaUsecaseTests: XCTestCase {
     }
     
     func testShouldUpdateAnIdea() {
-        var idea: IdeaStruct = IdeaStruct(id: 1, title: "Title", description: "Description", category: .Health)
+        var idea: IdeaStruct = IdeaStruct(id: 1, title: "Title", explanation: "Description", category: .Health)
         self.gateway.saveIdea(idea)
         idea.title = "New Title"
         
@@ -43,7 +43,7 @@ class SaveIdeaUsecaseTests: XCTestCase {
     
     func testShouldNotSaveWithoutTitle(){
         var idea: IdeaStruct = IdeaStruct()
-        idea.description = "Description"
+        idea.explanation = "Description"
         
         self.usecase.run(idea)
         

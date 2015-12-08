@@ -21,7 +21,7 @@ class ListIdeasUsecaseTests: XCTestCase {
     }
     
     func testShouldReturnAListOfCreatedIdeas() {
-        let idea = IdeaStruct(title: "Title", description: "Description", category: .Health)
+        let idea = IdeaStruct(title: "Title", explanation: "Description", category: .Health)
         self.gateway.saveIdea(idea)
         
         let ideasList = self.usecase.run()
