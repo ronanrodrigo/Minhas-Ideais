@@ -32,6 +32,8 @@
 		34D6B7091C14B67F00827791 /* IdeaGatewayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE621C139DFC00B7BCC1 /* IdeaGatewayProtocol.swift */; };
 		34D6B70A1C14B67F00827791 /* IdeaStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE641C139DFC00B7BCC1 /* IdeaStruct.swift */; };
 		34D6B70B1C14B67F00827791 /* SaveIdeaUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE661C139DFC00B7BCC1 /* SaveIdeaUsecase.swift */; };
+		34F9F9901C17892800A46050 /* ListIdeasPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F9F98F1C17892800A46050 /* ListIdeasPresenterProtocol.swift */; };
+		34F9F9931C1789AC00A46050 /* ListIdeasPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F9F9921C1789AC00A46050 /* ListIdeasPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		34D6B6FD1C14B15800827791 /* SaveIdeaUsecaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveIdeaUsecaseTests.swift; sourceTree = "<group>"; };
 		34D6B6FF1C14B15800827791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34D6B7061C14B48800827791 /* IdeaGatewayFake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaGatewayFake.swift; sourceTree = "<group>"; };
+		34F9F98F1C17892800A46050 /* ListIdeasPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasPresenterProtocol.swift; sourceTree = "<group>"; };
+		34F9F9921C1789AC00A46050 /* ListIdeasPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 		3410CE2D1C139C3D00B7BCC1 /* MyIdeas */ = {
 			isa = PBXGroup;
 			children = (
+				34F9F9911C17896C00A46050 /* Presenters */,
 				3410CE4E1C139C4800B7BCC1 /* Application */,
 				3410CE4F1C139C9000B7BCC1 /* Views */,
 				3410CE541C139D7F00B7BCC1 /* ViewsControllers */,
@@ -169,6 +174,7 @@
 			children = (
 				3410CE5F1C139DFC00B7BCC1 /* Enums */,
 				3410CE611C139DFC00B7BCC1 /* Gateways */,
+				34F9F98E1C17890D00A46050 /* Presenters */,
 				3410CE631C139DFC00B7BCC1 /* Structs */,
 				3410CE651C139DFC00B7BCC1 /* Usecases */,
 			);
@@ -283,6 +289,24 @@
 			path = CoreTests/Doubles/Gateways;
 			sourceTree = SOURCE_ROOT;
 		};
+		34F9F98E1C17890D00A46050 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				34F9F98F1C17892800A46050 /* ListIdeasPresenterProtocol.swift */,
+			);
+			name = Presenters;
+			path = Core/Presenters;
+			sourceTree = SOURCE_ROOT;
+		};
+		34F9F9911C17896C00A46050 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				34F9F9921C1789AC00A46050 /* ListIdeasPresenter.swift */,
+			);
+			name = Presenters;
+			path = MyIdeas/Presenters;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -395,9 +419,11 @@
 				3410CE5A1C139D7F00B7BCC1 /* DescriptionViewController.swift in Sources */,
 				3410CE5C1C139D7F00B7BCC1 /* IdeasListTableViewController.swift in Sources */,
 				3410CE2F1C139C3D00B7BCC1 /* AppDelegate.swift in Sources */,
+				34F9F9901C17892800A46050 /* ListIdeasPresenterProtocol.swift in Sources */,
 				3410CE691C139DFC00B7BCC1 /* IdeaStruct.swift in Sources */,
 				3410CE5B1C139D7F00B7BCC1 /* IdeaFormTableViewController.swift in Sources */,
 				3410CE671C139DFC00B7BCC1 /* CategoriesEnum.swift in Sources */,
+				34F9F9931C1789AC00A46050 /* ListIdeasPresenter.swift in Sources */,
 				3410CE591C139D7F00B7BCC1 /* CategoriesListTableViewController.swift in Sources */,
 				3410CE681C139DFC00B7BCC1 /* IdeaGatewayProtocol.swift in Sources */,
 			);

@@ -17,9 +17,6 @@ class IdeasListTableViewController: UITableViewController {
         super.viewDidLoad()
         
         self.listIdeasUsecase = ListIdeasUsecaseFactory().make()
-    }
-    
-    override func viewWillAppear(animated: Bool) {
         self.ideas = self.listIdeasUsecase.run()
         self.tableView.reloadData()
     }
@@ -29,7 +26,7 @@ class IdeasListTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
+   
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
