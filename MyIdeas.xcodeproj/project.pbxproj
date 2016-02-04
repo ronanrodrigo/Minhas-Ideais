@@ -14,12 +14,14 @@
 		3410CE591C139D7F00B7BCC1 /* CategoriesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE551C139D7F00B7BCC1 /* CategoriesListTableViewController.swift */; };
 		3410CE5A1C139D7F00B7BCC1 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE561C139D7F00B7BCC1 /* DescriptionViewController.swift */; };
 		3410CE5B1C139D7F00B7BCC1 /* IdeaFormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE571C139D7F00B7BCC1 /* IdeaFormTableViewController.swift */; };
-		3410CE5C1C139D7F00B7BCC1 /* IdeasListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE581C139D7F00B7BCC1 /* IdeasListTableViewController.swift */; };
 		3410CE671C139DFC00B7BCC1 /* CategoriesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE601C139DFC00B7BCC1 /* CategoriesEnum.swift */; };
 		3410CE681C139DFC00B7BCC1 /* IdeaGatewayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE621C139DFC00B7BCC1 /* IdeaGatewayProtocol.swift */; };
 		3410CE691C139DFC00B7BCC1 /* IdeaStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE641C139DFC00B7BCC1 /* IdeaStruct.swift */; };
 		3410CE6A1C139DFC00B7BCC1 /* SaveIdeaUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410CE661C139DFC00B7BCC1 /* SaveIdeaUsecase.swift */; };
 		341378FB1C14F1410043C818 /* SaveIdeaUsecaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341378FA1C14F1410043C818 /* SaveIdeaUsecaseFactory.swift */; };
+		341B6BAD1C260D98001A60F7 /* ListIdeasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341B6BAB1C260D98001A60F7 /* ListIdeasViewController.swift */; };
+		341B6BAE1C260D98001A60F7 /* ListIdeasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341B6BAC1C260D98001A60F7 /* ListIdeasViewController.xib */; };
+		341B6BB01C260E16001A60F7 /* ListIdeasDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341B6BAF1C260E16001A60F7 /* ListIdeasDataSource.swift */; };
 		3498C6501C14E59600299620 /* ListIdeasUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C64F1C14E59600299620 /* ListIdeasUsecase.swift */; };
 		3498C6521C14E60900299620 /* ListIdeasUsecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C6511C14E60900299620 /* ListIdeasUsecaseTests.swift */; };
 		3498C6551C14E75600299620 /* ListIdeasUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498C64F1C14E59600299620 /* ListIdeasUsecase.swift */; };
@@ -69,12 +71,14 @@
 		3410CE551C139D7F00B7BCC1 /* CategoriesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListTableViewController.swift; sourceTree = "<group>"; };
 		3410CE561C139D7F00B7BCC1 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		3410CE571C139D7F00B7BCC1 /* IdeaFormTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaFormTableViewController.swift; sourceTree = "<group>"; };
-		3410CE581C139D7F00B7BCC1 /* IdeasListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeasListTableViewController.swift; sourceTree = "<group>"; };
 		3410CE601C139DFC00B7BCC1 /* CategoriesEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesEnum.swift; sourceTree = "<group>"; };
 		3410CE621C139DFC00B7BCC1 /* IdeaGatewayProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaGatewayProtocol.swift; sourceTree = "<group>"; };
 		3410CE641C139DFC00B7BCC1 /* IdeaStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaStruct.swift; sourceTree = "<group>"; };
 		3410CE661C139DFC00B7BCC1 /* SaveIdeaUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveIdeaUsecase.swift; sourceTree = "<group>"; };
 		341378FA1C14F1410043C818 /* SaveIdeaUsecaseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveIdeaUsecaseFactory.swift; sourceTree = "<group>"; };
+		341B6BAB1C260D98001A60F7 /* ListIdeasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListIdeasViewController.swift; path = ../Views/ListIdeasViewController.swift; sourceTree = "<group>"; };
+		341B6BAC1C260D98001A60F7 /* ListIdeasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListIdeasViewController.xib; sourceTree = "<group>"; };
+		341B6BAF1C260E16001A60F7 /* ListIdeasDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasDataSource.swift; sourceTree = "<group>"; };
 		3498C64F1C14E59600299620 /* ListIdeasUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasUsecase.swift; sourceTree = "<group>"; };
 		3498C6511C14E60900299620 /* ListIdeasUsecaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasUsecaseTests.swift; sourceTree = "<group>"; };
 		3498C6581C14EEE900299620 /* ListIdeasUsecaseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIdeasUsecaseFactory.swift; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 			children = (
 				3410CE501C139D4A00B7BCC1 /* Main.storyboard */,
 				3410CE371C139C3D00B7BCC1 /* LaunchScreen.storyboard */,
+				341B6BAC1C260D98001A60F7 /* ListIdeasViewController.xib */,
 			);
 			name = Views;
 			path = MyIdeas/Views;
@@ -160,10 +165,11 @@
 		3410CE541C139D7F00B7BCC1 /* ViewsControllers */ = {
 			isa = PBXGroup;
 			children = (
+				341B6BAB1C260D98001A60F7 /* ListIdeasViewController.swift */,
+				341B6BAF1C260E16001A60F7 /* ListIdeasDataSource.swift */,
 				3410CE551C139D7F00B7BCC1 /* CategoriesListTableViewController.swift */,
 				3410CE561C139D7F00B7BCC1 /* DescriptionViewController.swift */,
 				3410CE571C139D7F00B7BCC1 /* IdeaFormTableViewController.swift */,
-				3410CE581C139D7F00B7BCC1 /* IdeasListTableViewController.swift */,
 			);
 			name = ViewsControllers;
 			path = MyIdeas/ViewsControllers;
@@ -391,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3410CE391C139C3D00B7BCC1 /* LaunchScreen.storyboard in Resources */,
+				341B6BAE1C260D98001A60F7 /* ListIdeasViewController.xib in Resources */,
 				3410CE361C139C3D00B7BCC1 /* Assets.xcassets in Resources */,
 				3410CE511C139D4A00B7BCC1 /* Main.storyboard in Resources */,
 			);
@@ -415,11 +422,12 @@
 				3498C65A1C14EFA200299620 /* ListIdeasUsecaseFactory.swift in Sources */,
 				3498C6501C14E59600299620 /* ListIdeasUsecase.swift in Sources */,
 				34AF64D01C16F1ED00C3D457 /* IdeaGatewayRealm.swift in Sources */,
+				341B6BB01C260E16001A60F7 /* ListIdeasDataSource.swift in Sources */,
 				3410CE6A1C139DFC00B7BCC1 /* SaveIdeaUsecase.swift in Sources */,
 				3410CE5A1C139D7F00B7BCC1 /* DescriptionViewController.swift in Sources */,
-				3410CE5C1C139D7F00B7BCC1 /* IdeasListTableViewController.swift in Sources */,
 				3410CE2F1C139C3D00B7BCC1 /* AppDelegate.swift in Sources */,
 				34F9F9901C17892800A46050 /* ListIdeasPresenterProtocol.swift in Sources */,
+				341B6BAD1C260D98001A60F7 /* ListIdeasViewController.swift in Sources */,
 				3410CE691C139DFC00B7BCC1 /* IdeaStruct.swift in Sources */,
 				3410CE5B1C139D7F00B7BCC1 /* IdeaFormTableViewController.swift in Sources */,
 				3410CE671C139DFC00B7BCC1 /* CategoriesEnum.swift in Sources */,
